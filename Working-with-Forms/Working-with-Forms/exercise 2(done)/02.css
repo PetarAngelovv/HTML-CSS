@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container{
+    margin:30px;
+    font-family: 'Lato',sans-serif;
+}
+h2{
+    margin-top: 20px;;
+}
+input{
+    padding: 10px;
+    margin-bottom: 40px;
+}
+pre{
+    background-color: #f4f4f4;
+    padding:20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border:1px gray;
+
+}

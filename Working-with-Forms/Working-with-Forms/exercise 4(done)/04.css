@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Lato',sans-serif;
+}
+.container{
+    margin:30px;
+}
+pre{
+    background-color: rgb(238 238 238);
+    border:1px solid rgb(204 204 204);
+    padding: 20px;
+    font-size: medium;
+    border-radius: 3px;
+    margin: 20px 0px;
+    font-weight: 600;
+}

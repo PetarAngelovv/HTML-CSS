@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Lato',sans-serif;
+}
+.container{
+    margin:30px;
+}
+p{
+    font-weight: 600;
+}
+select{
+ 	Display:block;
+	Min-width: 20ch;
+	Min-height: 20ch;
+    border-radius: 2px;
+    font-weight: 600;
+
+}
+pre{
+    background-color: rgb(238 238 238);
+    border:1px solid rgb(204 204 204);
+    padding: 25px;
+    font-size: medium;
+    border-radius: 3px;
+    margin: 30px 0px;
+    font-weight: 600;
+}
