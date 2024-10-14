@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #ccc;
+}
+.loginForm{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.field {
+    display: flex;
+    flex: 1;                          
+}
+.field.middle{
+    flex:3;
+}
+input {
+    padding: 10px;
+    width: 100%;                 
+    border:none;
+    background-color: #ece7e7;   
+}
+input[type="submit"]{
+    background-color: darkorange;
+    border:none;
+    border-radius: 3px;
+    color:white;
+}
+.loginForm > .field:not(:last-child) {
+    margin-right: 10px;   
+}
+
+@media (max-width:600px) {
+    .loginForm {
+        width: 60vw;
+        flex-wrap: wrap; 
+    }
+    .field {
+        margin: 5px 0px;   
+    }
+    .first.field{
+        flex:3;
+    }
+    p.middle.field{
+        flex:5;
+        margin-right: 0px !important;
+    }
+    .end.field{
+        display: block;  
+        flex-basis: 100%;  
+        width: 100%;  
+    }
+
+
+}
+@media (max-width:400px) {
+
+    .loginForm {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .field {             
+        margin-bottom: 10px;       
+    }
+    .loginForm > .field:not(:last-child) {
+        margin-right: 0px;
+    }
+}

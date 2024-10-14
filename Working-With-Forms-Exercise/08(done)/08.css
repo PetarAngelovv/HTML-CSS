@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    font-family: 'Lato';
+    padding: 2em;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: white;
+    padding: 35px;
+    height: 85%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+}
+.field{
+      display: flex;
+      flex-direction: column;
+      margin:33px 0px;
+      flex:1;
+      
+}
+input,
+textarea
+{
+    border:none;
+    border-bottom: 1px solid lightgray;
+}
+span{
+    font-style: italic;
+    opacity: 0.7;
+    font-size:1rem;
+}
+input[type="submit"]{
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+}

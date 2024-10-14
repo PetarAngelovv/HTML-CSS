@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #ccc;
+}
+.loginForm {
+    width: 400px;
+    padding: 30px;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+fieldset{
+border:none;
+display: flex;
+flex-direction: column;
+gap:15px;
+}
+.field {
+    display: flex;
+    flex-direction: column;
+}
+.field label{
+    order: -1;
+    font-weight: bold;
+}
+legend{
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 1px solid silver;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+input{
+    padding: 15px;
+    border:2px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"]{
+border:none;
+background-color:orange;
+color:white;
+margin-top:15px;
+
+}
+.loginForm input:required ~ label::after{
+    content:'*';
+    color:rgb(224, 1, 1);
+    margin-left:5px;
+    font-weight:bolder;
+}
+
