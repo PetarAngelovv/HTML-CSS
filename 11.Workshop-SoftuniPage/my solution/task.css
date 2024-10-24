@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #FFF;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    color: #625f5f;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.HeaderSection{
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    background: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.innerHeader{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+padding: 10px 5px;
+}
+.container{
+    max-width: 1200px;
+    margin-left: 17%;
+    margin-right: 15%;
+
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 10px;
+    color: #54546d;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.innerHeader li:nth-last-child(1){
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(275.43deg 47.95% 57.06%);
+    color:white;
+    padding: 7px 18px 7px 18px;
+    border-radius: 100px;
+}
+.DiplomsContainer{
+    position: relative;
+}
+.diplomsBackground{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-color: hsl(240deg 12.95% 37.84%);
+    left: 70%;
+    bottom: 60px;
+    border-radius: 50%;
+}
+.diplomsImg{
+    margin-bottom: 30px;
+}
+.backgroundImage{
+    position: absolute;
+    left: 85%;
+    top: 30px;
+}
+.innerDiploms{
+    display: flex;
+    padding: 120px 5px 50px 20px;
+    position: relative;
+    gap: 50px;
+
+}
+h3{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.italic{
+    font-style:italic;
+    opacity: 0.6;
+    margin-top: 10px;
+    font-size:12px;
+}
+.certificateContainer{
+    background-color: hsl(234.78deg 36.51% 12.35%);
+    color: white;
+}
+.innerCertificateContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 5px 100px 5px;
+    position: relative;
+}
+.CertificateImg{
+    display: flex;
+    flex: 1 0;
+  position: absolute;
+}
+.certificateData{
+    flex: 0 0 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.CertificateImg > img{
+    position: relative;
+    left: 869px;
+    bottom: -60px;
+}
+.innerCarrier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0px 50px 0px;
+}
+.CarrierData{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+}
+.mainBtn{
+    width: max-content;
+    margin-top: 10px;
+    color: hsl(276.88deg 47.06% 60%);
+    border: 1px solid hsl(276.88deg 47.06% 60%);
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+footer{
+    background-color: hsl(240deg 13.73% 20%);
+    color:white;
+}
+.footerCol h4{
+    color:#9b5dc6;
+    font-weight: 700;
+}
+.footerContainer{
+    padding: 50px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 80px;
+}
+.footerCol {
+    flex: 0 0 calc(25% - 80px);
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+.footMenu ul {
+    flex-direction: column;
+    align-items: start;
+}
+.footMenu ul li {
+    color: #FFF;
+    text-transform: none;
+}
+.footMenu ul > li:last-of-type {
+    background: unset;
+    padding: inherit;
+    box-shadow: none;
+}
+.iconsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.iconsContainer i {
+    font-size: 20px;
+}
+
+.footerCol > p:last-of-type {
+    font-size: 0.8rem;
+} 
+/* 
+
+
+
+
+
+
+
+
+
+
+*/
