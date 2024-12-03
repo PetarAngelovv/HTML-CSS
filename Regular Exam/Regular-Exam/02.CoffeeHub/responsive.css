@@ -1,0 +1,55 @@
+@media screen and (max-width:600px){
+    .home-heading-container {
+        width: 100%;
+    }
+    
+    .home-cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-links-container {
+        margin-left: 40px;
+    }
+    .home-feature-card {
+        align-self: center;
+        width: 100%;
+    }
+    .home-feature-card1, .home-feature-card2 {
+        width: 100%;
+
+    }
+    .home-features {
+        height: 100%;
+    }
+    .home-cta-btn {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .home-image2, .home-image3, .home-image4 {
+        width: 400px;
+        height: 270px;
+    }
+    .home-stats {
+        display: block;
+
+    }
+    .home-hero-text-container {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .home-hero {
+        flex-direction: column-reverse;
+       
+    }
+    .home-image1 { 
+        width: 100%; 
+    }
+    .home-cta-btn2 {
+         align-self: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .home-heading{
+        width: 100%;
+    }   
+}
